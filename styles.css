@@ -18,6 +18,22 @@
     margin: 0 auto;
     padding: 20px 0;
   }
+
+  .about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ddd;
+  }
+  
   
   header {
     background: #333;
